@@ -1,0 +1,350 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Validate whether payment is being made to existing user is successful",
+        "description": "",
+        "id": "this-feature-file-is-to-test-the-functionalities-of-cyclos-website;validate-whether-payment-is-being-made-to-existing-user-is-successful",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18325017000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Required website is launched also business user is able to loggin with the authorized credentials",
+            "match": {
+              "location": "PayUserDataTableTC1.required_website_is_launched_also_business_user_is_able_to_loggin_with_the_authorized_credentials()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31154337900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Following are the payment details",
+            "match": {
+              "location": "PayUserDataTableTC1.following_are_the_payment_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "User(quick search)",
+                  "Amount"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "Nicola  Tesla",
+                  "1"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Hotel  Oasis",
+                  "1"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Henry  George",
+                  "1"
+                ],
+                "line": 11
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4360239400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "System is able to make the desired payment",
+            "match": {
+              "location": "PayUserDataTableTC1.system_is_able_to_make_the_desired_payment()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@PayUser_DataTable"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Validate whether payment is being made to existing user is successful",
+        "description": "",
+        "id": "this-feature-file-is-to-test-the-functionalities-of-cyclos-website;validate-whether-payment-is-being-made-to-existing-user-is-successful;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18785614400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Website launched also business user is able to loggin with the authorized credentials",
+            "match": {
+              "location": "PayUserScnOutlineTC2.website_launched_also_business_user_is_able_to_loggin_with_the_authorized_credentials()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22584303400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Data details are User(quick search) \"Nicola  Tesla\"  Amount \"2\" system is able to make the payment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nicola  Tesla",
+                  "offset": 37
+                },
+                {
+                  "val": "2",
+                  "offset": 61
+                }
+              ],
+              "location": "PayUserScnOutlineTC2.data_details_are_User_quick_search_Amount_system_is_able_to_make_the_payment(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4347923200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "System is able to make the required payment",
+            "match": {
+              "location": "PayUserScnOutlineTC2.system_is_able_to_make_the_required_payment()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@PayUser_ScenarioOutline"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Validate whether payment is being made to existing user is successful",
+        "description": "",
+        "id": "this-feature-file-is-to-test-the-functionalities-of-cyclos-website;validate-whether-payment-is-being-made-to-existing-user-is-successful;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22854863600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Website launched also business user is able to loggin with the authorized credentials",
+            "match": {
+              "location": "PayUserScnOutlineTC2.website_launched_also_business_user_is_able_to_loggin_with_the_authorized_credentials()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16208301500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Data details are User(quick search) \"Hotel  Oasis\"  Amount \"2\" system is able to make the payment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hotel  Oasis",
+                  "offset": 37
+                },
+                {
+                  "val": "2",
+                  "offset": 60
+                }
+              ],
+              "location": "PayUserScnOutlineTC2.data_details_are_User_quick_search_Amount_system_is_able_to_make_the_payment(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4334830400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "System is able to make the required payment",
+            "match": {
+              "location": "PayUserScnOutlineTC2.system_is_able_to_make_the_required_payment()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@PayUser_ScenarioOutline"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Validate whether payment is being made to existing user is successful",
+        "description": "",
+        "id": "this-feature-file-is-to-test-the-functionalities-of-cyclos-website;validate-whether-payment-is-being-made-to-existing-user-is-successful;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21778400800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Website launched also business user is able to loggin with the authorized credentials",
+            "match": {
+              "location": "PayUserScnOutlineTC2.website_launched_also_business_user_is_able_to_loggin_with_the_authorized_credentials()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15922669200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Data details are User(quick search) \"Henry  George\"  Amount \"2\" system is able to make the payment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Henry  George",
+                  "offset": 37
+                },
+                {
+                  "val": "2",
+                  "offset": 61
+                }
+              ],
+              "location": "PayUserScnOutlineTC2.data_details_are_User_quick_search_Amount_system_is_able_to_make_the_payment(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4317686500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "System is able to make the required payment",
+            "match": {
+              "location": "PayUserScnOutlineTC2.system_is_able_to_make_the_required_payment()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@PayUser_ScenarioOutline"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Validate whether payment is being made to existing user is successful by fetching data from csv file",
+        "description": "",
+        "id": "this-feature-file-is-to-test-the-functionalities-of-cyclos-website;validate-whether-payment-is-being-made-to-existing-user-is-successful-by-fetching-data-from-csv-file",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19333519700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Launching the Cyclos website and using the account id with passowrd to gain access",
+            "match": {
+              "location": "PayUserCSVdataTC3.launching_the_Cyclos_website_and_using_the_account_id_with_passowrd_to_gain_access()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37601346800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Data data is being fetched from \"./TestData/CyclosNew.csv\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "./TestData/CyclosNew.csv",
+                  "offset": 33
+                }
+              ],
+              "location": "PayUserCSVdataTC3.data_data_is_being_fetched_from(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4349239900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Payment is being done by the system",
+            "match": {
+              "location": "PayUserCSVdataTC3.payment_is_being_done_by_the_system()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@PayUser_DataDrivenExternalSource"
+          }
+        ]
+      }
+    ],
+    "name": "This feature file is to test the functionalities of Cyclos Website",
+    "description": "",
+    "id": "this-feature-file-is-to-test-the-functionalities-of-cyclos-website",
+    "keyword": "Feature",
+    "uri": "CyclosFunctioanlTest.feature"
+  }
+]
